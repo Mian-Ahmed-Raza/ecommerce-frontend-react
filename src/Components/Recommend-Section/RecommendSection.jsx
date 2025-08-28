@@ -28,7 +28,7 @@ export default function RecommendSection() {
                 <div className={styles.itemsContainer}>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/1">
                         <Items
                             image={tShirt}
                             name="T-shirts with multiple colors for men"
