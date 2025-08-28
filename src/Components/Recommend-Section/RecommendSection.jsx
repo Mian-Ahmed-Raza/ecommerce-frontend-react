@@ -37,7 +37,7 @@ export default function RecommendSection() {
                     </Link>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/2">
                         <Items
                             image={brownCoat}
                             name="Brown winter coat medium size"
@@ -46,7 +46,7 @@ export default function RecommendSection() {
                     </Link>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/3">
                         <Items
                             image={blazzer}
                             name="Stylish black blazer"
@@ -55,7 +55,7 @@ export default function RecommendSection() {
                     </Link>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/4">
                         <Items
                             image={wallet}
                             name="Leather wallet"
@@ -64,7 +64,7 @@ export default function RecommendSection() {
                     </Link>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/5">
                         <Items
                             image={bag}
                             name="Fashionable handbag"
@@ -72,7 +72,7 @@ export default function RecommendSection() {
                         />
                     </Link>
 
-                    <Link to="/Product">
+                    <Link to="/Product/6">
                         <Items
                             image={shorts}
                             name="Casual shorts"
@@ -80,7 +80,7 @@ export default function RecommendSection() {
                         />
                     </Link>
 
-                    <Link to="/Product">
+                    <Link to="/Product/7">
                         <Items
                             image={simpleHeadphone}
                             name="Simple headphone"
@@ -89,7 +89,7 @@ export default function RecommendSection() {
                     </Link>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/8">
                         <Items
                             image={pot}
                             name="Ceramic pot"
@@ -98,7 +98,7 @@ export default function RecommendSection() {
                     </Link>
 
 
-                    <Link to="/Product">
+                    <Link to="/Product/9">
                         <Items
                             image={kettle}
                             name="Electric kettle"
@@ -106,7 +106,7 @@ export default function RecommendSection() {
                         />
                     </Link>
 
-                    <Link to="/Product">
+                    <Link to="/Product/2">
                         <Items
                             image={brownCoat}
                             name="Brown winter coat medium size"
