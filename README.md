@@ -1,12 +1,69 @@
-# React + Vite
+# 🛒 Ecommerce Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **eCommerce frontend** built with React. This project includes product listings, product details, shopping cart, checkout flow, and modern UI features to simulate a real online store experience.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🏠 Home Page with featured products and categories  
+- 📦 Product Listing with filters & sorting  
+- 🔍 Product Details with images, description & reviews  
+- 🛒 Shopping Cart (add, update, remove items)  
+- 💳 Checkout Page with form validation  
+- 🔐 Authentication Pages (login/register – frontend only)  
+- 📱 Responsive Design (works on mobile, tablet, desktop)  
+- 🌙 Optional Dark Mode  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React (Vite)  
+- CSS / Tailwind CSS  
+- React Router  
+- Context API / Redux (for cart & state management)  
+
+---
+
+## 📂 Project Structure
+ecommerce-frontend-react/
+│── public/ # Static assets
+│── src/
+│ ├── assets/ # Images & icons
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components (Home, Cart, Checkout, etc.)
+│ ├── App.jsx # Main app file
+│ └── main.jsx # Entry point
+│── package.json
+│── README.md
+│── LICENSE
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/ahmedraza/ecommerce-frontend-react.git
+cd ecommerce-frontend-react
+```
+
+###2️⃣ Install dependencies
+```bash
+npm install
+```
+
+###3️⃣ Run the app
+```bash
+npm run dev
+```
+
+---
+
+##📷 Screenshot
+![web-main (2)](https://github.com/user-attachments/assets/02f1be20-d7ba-455d-8d50-024b97ddd5f3)
+
+---
+
+## 📜 License
+This project is licensed under the **Apache License 2.0** – see the [LICENSE](./LICENSE) file for details.
