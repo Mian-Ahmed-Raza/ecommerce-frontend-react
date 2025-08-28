@@ -8,6 +8,13 @@ import shirt from '../../assets/product-imgs/grey t-shirt.jpg';
 import right from '../../assets/product-imgs/expand_right.png';
 import check from '../../assets/product-imgs/check.png';
 import dot from '../../assets/product-imgs/Dot.png';
+import rating from '../../assets/product-imgs/rating.png';
+import message from '../../assets/product-imgs/message.png'
+import basket from '../../assets/product-imgs/shopping_basket.png'
+import germany from '../../assets/product-imgs/germany.png'
+import verified from '../../assets/product-imgs/verified.svg'
+import world from '../../assets/product-imgs/world.svg'
+
 
 export default function Product() {
 
@@ -119,7 +126,8 @@ export default function Product() {
 
                             <div className={styles.rating}>
 
-                                
+                                <img src={rating} alt="rating" />
+                                <span>{Product.rating}</span>
 
                             </div>
 
@@ -127,7 +135,8 @@ export default function Product() {
 
                             <div className={styles.reviews}>
 
-
+                                <img src={message} alt="message" />
+                                <span>{Product.reviews} reviews</span>
 
                             </div>
 
@@ -135,20 +144,111 @@ export default function Product() {
 
                             <div className={styles.sold}>
 
-
+                                <img src={basket} alt="basket" />
+                                <span>{Product.sold} sold</span>
 
                             </div>
 
                         </div>
 
                         
+                        <div className={styles.pricing}>
+
+                            <div className={styles.price}>
+                                <span>{Product.price1}</span>
+                                <span>50-100 pcs</span>
+                            </div>
+
+                            <div className={styles.price}>
+                                <span>{Product.price2}</span>
+                                <span>100-700 pcs</span>
+                            </div>
+
+                            <div className={styles.price}>
+                                <span>{Product.price3}</span>
+                                <span>700+ pcs</span>
+                            </div>
+
+                        </div>
+
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Price:</p>
+                            <span className={styles.span}>Negotiable</span>
+                        </div>
+
+                        <hr />
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Type:</p>
+                            <span className={styles.span}>Classic {Product.type}</span>
+                        </div>
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Material:</p>
+                            <span className={styles.span}>{Product.material} material</span>
+                        </div>
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Design:</p>
+                            <span className={styles.span}>Modern Nice</span>
+                        </div>
+
+                        <hr />
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Customization:</p>
+                            <span className={styles.span}>Customized logo and design custom packages</span>
+                        </div>
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Protection:</p>
+                            <span className={styles.span}>Refund Policy</span>
+                        </div>
+
+                        <div className={styles.infoBox}>
+                            <p className={styles.title}>Warranty:</p>
+                            <span className={styles.span}>2 years full warranty</span>
+                        </div>
+
+                        <hr />
 
 
                     </div>
 
                     <div className={styles.seller}>
 
+                        <div className={styles.header}>
 
+                            <p className={styles.icon}>A</p>
+
+                            <div className={styles.name}>
+                                <p>Supplier</p>
+                                <p>Gajnoi Trading LLC</p>
+                            </div>
+
+                        </div>
+
+                        <hr />
+
+                        <div className={styles.info}>
+                            <img src={germany} alt="Germany" height={'15px'}/>
+                            <p>Germany, Berlin</p>
+                        </div>
+
+                        <div className={styles.info}>
+                            <img src={verified} alt="verified" />
+                            <p>Verified Seller</p>
+                        </div>
+
+                        <div className={styles.info}>
+                            <img src={world} alt="world" />
+                            <p>Worldwide Shipping</p>
+                        </div>
+
+                        <button type="button">Send inquiry</button>
+
+                        <button type="button">Seller's profile</button>
 
                     </div>
 
