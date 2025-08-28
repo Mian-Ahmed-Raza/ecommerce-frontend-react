@@ -1,0 +1,48 @@
+@import url(../../index.css);
+
+footer{
+    width: 100%;
+    background-color: var(--white);
+}
+
+.footer-container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.company-info p{
+    margin-top: 10px;
+    color: #505050;
+}
+
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.social a:hover{
+    filter: var(--a-hover);
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links span{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-links a{
+    color: var(--grey-text);
+}
+
+.footer-links a:hover{
+    color: #0067FF;
+}

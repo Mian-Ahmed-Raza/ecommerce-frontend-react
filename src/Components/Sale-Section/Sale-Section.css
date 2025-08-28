@@ -1,0 +1,43 @@
+@import url(../../index.css);
+
+section{
+    margin-bottom: 20px;
+}
+
+.sale-section{
+    width: 80vw;
+    height: 235px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    display: flex;
+}
+
+.sale-section .time{
+    width: 300px;
+    position: relative;
+}
+
+.sale-section .time div{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.sale-section .time div h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sale-section .time div p{
+    font-size: 14px;
+    color: var(--grey-text);
+    margin-bottom: 20px;
+}
+
+
+.sale-section .items{
+    display: flex;
+    width: 100%;
+}

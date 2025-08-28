@@ -1,0 +1,13 @@
+@import url(../../index.css);
+
+.copyright{
+    height: 68px;
+    background-color: #EFF2F4;
+}
+
+.copyright div{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: var(--grey-text);
+}

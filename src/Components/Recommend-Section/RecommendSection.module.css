@@ -1,0 +1,18 @@
+@import url(../../index.css);
+
+.recommendSection{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.recommendSection .heading{
+    font-size: 24px;   
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.recommendSection .itemsContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}

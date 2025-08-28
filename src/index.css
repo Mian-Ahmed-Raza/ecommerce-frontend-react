@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root{
+    --border-color: #DEE2E7;
+    --grey-text: #8B96A5;
+    --blue-button: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+    --a-hover: brightness(0) saturate(100%) invert(27%) sepia(79%) saturate(3656%) hue-rotate(205deg) brightness(97%) contrast(101%);
+    --background: #f6f8fd;
+    --white: #ffffff;
+    --item-hover: #E5F1FF;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: var(--background);
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}

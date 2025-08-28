@@ -1,0 +1,47 @@
+@import url(../../index.css);
+
+.items-group{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    display: flex;
+    height: 255px;
+}
+
+.items-group .left-aside{
+    width: 300px;
+    /* background-image: url('../../assets/home-img/items grp 1.jpg'); */
+    background-size: cover;
+    background-position: right center;
+}
+
+.items-group .left-aside h2{
+ font-weight: 600;   
+ font-size: 20px;
+ margin: 20px;
+}
+
+.items-group .left-aside button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.items-group .left-aside button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+.items-group .items-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
