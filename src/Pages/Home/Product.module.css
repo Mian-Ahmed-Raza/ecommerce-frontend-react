@@ -233,6 +233,7 @@ hr{
 .detailSection{
     width: 80vw;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .description{
@@ -271,4 +272,39 @@ hr{
 
 .description .content{
     margin: 20px;
+}
+
+.description .content p:last-of-type{
+    margin-bottom: 20px;
+}
+
+.description .content .table {
+    margin-bottom: 20px;
+    color: #505050;
+}
+
+.description .content .table td {
+    width: 323px;
+    border: 1px solid #DEE2E7;
+    padding: 10px;
+}
+
+.description .content .table td:first-of-type {
+    background-color: #EFF2F4;
+    width: 204px;
+}
+
+.description .content .features {
+    color: #505050;
+}
+
+.description .content .features li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.description .content .features li::before {
+    content: url(../../assets/product-imgs/tick.svg);
+    color: grey;
+    margin-right: 10px;
 }
