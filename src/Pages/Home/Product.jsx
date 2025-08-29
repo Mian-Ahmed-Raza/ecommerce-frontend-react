@@ -33,162 +33,162 @@ export default function Product() {
         {
             id: 1,
             name: "Mens Half Sleeve T-Shirt Cotton Base Layer Slim Muscle",
-            price1: "$10.33", 
-            price2: "$8.99", 
-            price3: "$6.99", 
-            rating: "4.7", 
-            reviews: "47", 
-            sold: "287", 
-            type: "Clothing", 
-            material: "Cotton", 
-            mainImage: shirt, 
-            cat1: "Clothing", 
-            cat2: "Men", 
-            cat3: "T-Shirts", 
+            price1: "$10.33",
+            price2: "$8.99",
+            price3: "$6.99",
+            rating: "4.7",
+            reviews: "47",
+            sold: "287",
+            type: "Clothing",
+            material: "Cotton",
+            mainImage: shirt,
+            cat1: "Clothing",
+            cat2: "Men",
+            cat3: "T-Shirts",
             inStock: true
         },
 
         {
             id: 2,
             name: "Mens Brown Winter Coat All Sizes pure soft",
-            price1: "$25.50", 
-            price2: "$22.99", 
-            price3: "$20.99", 
-            rating: "4.9", 
-            reviews: "101", 
-            sold: "531", 
-            type: "Clothing", 
-            material: "Wool", 
-            mainImage: brownCoat, 
-            cat1: "Clothing", 
-            cat2: "Men", 
-            cat3: "Winter Clothing", 
+            price1: "$25.50",
+            price2: "$22.99",
+            price3: "$20.99",
+            rating: "4.9",
+            reviews: "101",
+            sold: "531",
+            type: "Clothing",
+            material: "Wool",
+            mainImage: brownCoat,
+            cat1: "Clothing",
+            cat2: "Men",
+            cat3: "Winter Clothing",
             inStock: true
         },
 
         {
             id: 3,
             name: "Mens Stylish blazers multicolors all weather Good Quality",
-            price1: "$30.00", 
-            price2: "$27.99", 
-            price3: "$25.99", 
-            rating: "4.3", 
-            reviews: "231", 
-            sold: "799", 
-            type: "Clothing", 
-            material: "Wool, Cotton", 
-            mainImage: blazzer, 
-            cat1: "Clothing", 
-            cat2: "Men", 
-            cat3: "Formal", 
+            price1: "$30.00",
+            price2: "$27.99",
+            price3: "$25.99",
+            rating: "4.3",
+            reviews: "231",
+            sold: "799",
+            type: "Clothing",
+            material: "Wool, Cotton",
+            mainImage: blazzer,
+            cat1: "Clothing",
+            cat2: "Men",
+            cat3: "Formal",
             inStock: true
         },
 
         {
             id: 4,
             name: "Mens Pure Leather Wallet Standard Pocket Size with multiple pockets",
-            price1: "$15.00", 
-            price2: "$13.99", 
-            price3: "$11.99", 
-            rating: "4.1", 
-            reviews: "101", 
-            sold: "331", 
-            type: "Accessories", 
-            material: "Leather", 
-            mainImage: wallet, 
-            cat1: "Accessories", 
-            cat2: "Men", 
-            cat3: "Wallets", 
+            price1: "$15.00",
+            price2: "$13.99",
+            price3: "$11.99",
+            rating: "4.1",
+            reviews: "101",
+            sold: "331",
+            type: "Accessories",
+            material: "Leather",
+            mainImage: wallet,
+            cat1: "Accessories",
+            cat2: "Men",
+            cat3: "Wallets",
             inStock: true
         },
 
         {
             id: 5,
             name: "Fashionable Handbag for Girls Pure Jeans Bag Best Quality",
-            price1: "$40.00", 
-            price2: "$36.99", 
-            price3: "$30.99", 
-            rating: "4.8", 
-            reviews: "269", 
-            sold: "987", 
-            type: "Accessories", 
-            material: "Jeans", 
-            mainImage: bag, 
-            cat1: "Accessories", 
-            cat2: "Women", 
-            cat3: "Hand Bags", 
+            price1: "$40.00",
+            price2: "$36.99",
+            price3: "$30.99",
+            rating: "4.8",
+            reviews: "269",
+            sold: "987",
+            type: "Accessories",
+            material: "Jeans",
+            mainImage: bag,
+            cat1: "Accessories",
+            cat2: "Women",
+            cat3: "Hand Bags",
             inStock: true
         },
 
         {
             id: 6,
             name: "Pure Jeans Casual Shorts With Side Pockets",
-            price1: "$20.00", 
-            price2: "$18.99", 
-            price3: "$15.99", 
-            rating: "4.6", 
-            reviews: "151", 
-            sold: "344", 
-            type: "Clothing", 
-            material: "Jeans", 
-            mainImage: shorts, 
-            cat1: "Clothing", 
-            cat2: "Men", 
-            cat3: "Shorts", 
+            price1: "$20.00",
+            price2: "$18.99",
+            price3: "$15.99",
+            rating: "4.6",
+            reviews: "151",
+            sold: "344",
+            type: "Clothing",
+            material: "Jeans",
+            mainImage: shorts,
+            cat1: "Clothing",
+            cat2: "Men",
+            cat3: "Shorts",
             inStock: true
         },
 
         {
             id: 7,
             name: "Headphones for Multipurpose for Men and Women Excellent Sound Quality",
-            price1: "$12.00", 
-            price2: "$10.99", 
-            price3: "$8.99", 
-            rating: "5", 
-            reviews: "181", 
-            sold: "333", 
-            type: "Electronics", 
-            material: "Plastic and Metal", 
-            mainImage: simpleHeadphone, 
-            cat1: "Electronics", 
-            cat2: "Periphrels", 
-            cat3: "Headphones", 
+            price1: "$12.00",
+            price2: "$10.99",
+            price3: "$8.99",
+            rating: "5",
+            reviews: "181",
+            sold: "333",
+            type: "Electronics",
+            material: "Plastic and Metal",
+            mainImage: simpleHeadphone,
+            cat1: "Electronics",
+            cat2: "Periphrels",
+            cat3: "Headphones",
             inStock: true
         },
 
         {
             id: 8,
             name: "Cermaic Pot for Multipurpose",
-            price1: "$18.00", 
-            price2: "$16.99", 
-            price3: "$14.99", 
-            rating: "4.3", 
-            reviews: "101", 
-            sold: "531", 
-            type: "Home Decor", 
-            material: "Ceramic", 
-            mainImage: pot, 
-            cat1: "Home and Decor", 
-            cat2: "Plants", 
-            cat3: "Pots", 
+            price1: "$18.00",
+            price2: "$16.99",
+            price3: "$14.99",
+            rating: "4.3",
+            reviews: "101",
+            sold: "531",
+            type: "Home Decor",
+            material: "Ceramic",
+            mainImage: pot,
+            cat1: "Home and Decor",
+            cat2: "Plants",
+            cat3: "Pots",
             inStock: true
         },
 
         {
             id: 9,
             name: "Electric Kettle Excellent Quality with 2 Years Warranty",
-            price1: "$35.00", 
-            price2: "$30.99", 
-            price3: "$28.99", 
-            rating: "4.5", 
-            reviews: "451", 
-            sold: "1.6k", 
-            type: "Electronics", 
-            material: "Wool", 
-            mainImage: kettle, 
-            cat1: "Electronics", 
-            cat2: "Kitchen Appliances", 
-            cat3: "Kettles", 
+            price1: "$35.00",
+            price2: "$30.99",
+            price3: "$28.99",
+            rating: "4.5",
+            reviews: "451",
+            sold: "1.6k",
+            type: "Electronics",
+            material: "Wool",
+            mainImage: kettle,
+            cat1: "Electronics",
+            cat2: "Kitchen Appliances",
+            cat3: "Kettles",
             inStock: true
         }
     ];
@@ -420,6 +420,84 @@ export default function Product() {
                         <button type="button">Seller's profile</button>
 
                     </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <section className={styles.detailSection}>
+
+
+                <div className={styles.description}>
+
+                    <div className={styles.header}>
+
+                        <button type="button">Description</button>
+                        <button type="button">Reviews</button>
+                        <button type="button">Shipping</button>
+                        <button type="button">About seller</button>
+
+                    </div>
+
+                    <div className={styles.content}>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, culpa aliquam eum doloremque voluptate recusandae accusantium incidunt adipisci eaque error quis totam tempora vel officia dignissimos iusto. Tempore nam eveniet nobis nostrum similique reiciendis architecto velit exercitationem natus, rem debitis dicta quam soluta, aliquam vero? Natus et facere assumenda doloribus ratione neque deleniti rem omnis nisi voluptas, temporibus, dolore doloremque!</p>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nihil distinctio, nesciunt, odio obcaecati sit architecto sunt facilis eius fuga rerum perferendis totam repudiandae delectus?</p>
+
+
+
+                        <table className={styles.table}>
+
+                            <tr>
+                                <td>Model</td>
+                                <td>#98755</td>
+                            </tr>
+
+                            <tr>
+                                <td>Style</td>
+                                <td>Classic Style</td>
+                            </tr>
+
+                            <tr>
+                                <td>Certificate</td>
+                                <td>ISO-986587</td>
+                            </tr>
+
+                            <tr>
+                                <td>Size</td>
+                                <td>small/medium/large</td>
+                            </tr>
+
+                            <tr>
+                                <td>Colors</td>
+                                <td>Many available</td>
+                            </tr>
+
+                        </table>
+
+                        <div className={styles.features}>
+
+                            <ul>
+                                <li>Some great feature name here</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur</li>
+                                <li>Duis aute irure dolor in reprehenderit</li>
+                                <li>Some great feature name here</li>
+                            </ul>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div className={styles.mayLike}>
+
 
 
                 </div>

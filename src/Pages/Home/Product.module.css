@@ -228,3 +228,47 @@ hr{
     border: 1px solid var(--border-color);
     color: #0C77FF;
 }
+
+
+.detailSection{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.description{
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 880px;
+}
+
+.description .header{
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.description .header button{
+    height: 100%;
+    margin-left: 5px;
+    background-color: var(--white);
+    border: none;
+    width: 90px;
+    color: var(--grey-text);
+}
+
+.description .header button:first-of-type{
+    color: #0C77FF;
+    font-weight: 600;
+    border-bottom: 2px solid #0C77FF;
+}
+
+.description .header button:focus{
+    color: #0C77FF;
+    font-weight: 600;
+    border-bottom: 2px solid #0C77FF;
+}
+
+.description .content{
+    margin: 20px;
+}
