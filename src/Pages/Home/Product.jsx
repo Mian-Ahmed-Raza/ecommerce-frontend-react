@@ -3,6 +3,7 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Header/Navbar";
 import styles from "./Product.module.css";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import shirt from '../../assets/product-imgs/grey t-shirt.jpg';
 import brownCoat from '../../assets/home-img/brown coat.png';
@@ -498,7 +499,86 @@ export default function Product() {
 
                 <div className={styles.mayLike}>
 
+                    <h3>You may like</h3>
 
+                    <div className={styles.products}>
+
+                        <Link to='/Product/3'>
+                            <div className={styles.product}>
+
+                                <div className={styles.image}>
+                                    <img src={blazzer} alt="blazzer" height={'62px'} />
+                                </div>
+
+                                <div className={styles.content}>
+                                    <p>Men Blazers Sets Elegant Formal</p>
+                                    <span>$7.00 - $99.00</span>
+                                </div>
+
+                            </div>
+                        </Link>
+
+                        <Link to='/Product/1'>
+                            <div className={styles.product}>
+
+                                <div className={styles.image}>
+                                    <img src={shirt} alt="shirt" height={'62px'} />
+                                </div>
+
+                                <div className={styles.content}>
+                                    <p>Mens T-Shirt Sleeveless Polo</p>
+                                    <span>$7.00 - $99.00</span>
+                                </div>
+
+                            </div>
+                        </Link>
+
+                        <Link to='/Product/2'>
+                            <div className={styles.product}>
+
+                                <div className={styles.image}>
+                                    <img src={brownCoat} alt="brown Coat" height={'62px'} />
+                                </div>
+
+                                <div className={styles.content}>
+                                    <p>Mens Brown Coat Winters</p>
+                                    <span>$7.00 - $99.00</span>
+                                </div>
+
+                            </div>
+                        </Link>
+
+                        <Link to='/Product/8'>
+                            <div className={styles.product}>
+
+                                <div className={styles.image}>
+                                    <img src={pot} alt="Pot" height={'62px'} />
+                                </div>
+
+                                <div className={styles.content}>
+                                    <p>Pot for Multipurpose</p>
+                                    <span>$7.00 - $99.00</span>
+                                </div>
+
+                            </div>
+                        </Link>
+
+                        <Link to='/Product/5'>
+                            <div className={styles.product}>
+
+                                <div className={styles.image}>
+                                    <img src={bag} alt="bag" height={'62px'} />
+                                </div>
+
+                                <div className={styles.content}>
+                                    <p>Pure Jeans Bag for Girls</p>
+                                    <span>$7.00 - $99.00</span>
+                                </div>
+
+                            </div>
+                        </Link>
+
+                    </div>
 
                 </div>
 
