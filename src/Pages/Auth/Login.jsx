@@ -41,7 +41,7 @@ export default function Login(){
                 <div className={styles.authIllustration}>
                     <h3>Welcome back 👋</h3>
                     <p>Sign in to continue to your account and manage orders, wishlist and more.</p>
-                    <img src="/src/assets/home-img/logo-colored.svg" alt="logo" style={{width: '140px'}} />
+                    <Link to="/"><img src="/src/assets/home-img/logo-colored.svg" alt="logo" style={{width: '140px'}} /></Link>
                 </div>
 
                 <form className={styles.authForm} onSubmit={handleSubmit} aria-label="login form">

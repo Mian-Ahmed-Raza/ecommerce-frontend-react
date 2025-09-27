@@ -52,7 +52,7 @@ export default function Register(){
                 <div className={styles.authIllustration}>
                     <h3>Create account</h3>
                     <p>Join us to manage your orders, track shipments and save favorites.</p>
-                    <img src="/src/assets/home-img/logo-colored.svg" alt="logo" style={{width: '140px'}} />
+                    <Link to="/"><img src="/src/assets/home-img/logo-colored.svg" alt="logo" style={{width: '140px'}} /></Link>
                 </div>
 
                 <form className={styles.authForm} onSubmit={handleSubmit} aria-label="register form">
