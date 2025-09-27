@@ -31,11 +31,11 @@ export default function Footer() {
 
                     <div className="social">
 
-                        <a href="#"><img src={fbLogo} alt="Facebook" /></a>
-                        <a href="#"><img src={twitterLogo} alt="Twitter" /></a>
-                        <a href="#"><img src={liLogo} alt="LinkedIn" /></a>
-                        <a href="#"><img src={igLogo} alt="Instagram" /></a>
-                        <a href="#"><img src={ytLogo} alt="YouTube" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100081374814371"><img src={fbLogo} alt="Facebook" /></a>
+                        <a href="https://www.linkedin.com/in/mian-ahmed-raza/"><img src={twitterLogo} alt="Twitter" /></a>
+                        <a href="https://www.linkedin.com/in/mian-ahmed-raza/"><img src={liLogo} alt="LinkedIn" /></a>
+                        <a href="https://www.instagram.com/mian_ahmed_62/"><img src={igLogo} alt="Instagram" /></a>
+                        <a href="https://wa.me/+923247932617"><img src={ytLogo} alt="YouTube" /></a>
 
                     </div>
 
