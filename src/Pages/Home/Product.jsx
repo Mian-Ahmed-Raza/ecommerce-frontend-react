@@ -3,6 +3,7 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Header/Navbar";
 import styles from "./Product.module.css";
 import RelatedProducts from "../../Components/Related-Products/Related-Products";
+import PromoBanner from "../../Components/Promo-Banner/Promo-Banner";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -626,6 +627,8 @@ export default function Product() {
             </section>
 
             <RelatedProducts />
+
+            <PromoBanner />
 
 
             <Footer />
