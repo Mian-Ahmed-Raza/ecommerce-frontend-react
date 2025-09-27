@@ -15,6 +15,8 @@ import shorts from '../../assets/home-img/shorts.png';
 import simpleHeadphone from '../../assets/home-img/simple headphone.png';
 import pot from '../../assets/home-img/pot.png';
 import kettle from '../../assets/home-img/kettle.png';
+import smartwatch from '../../assets/product-imgs/watch.png';
+import tockri from '../../assets/product-imgs/tockri.png';
 
 import right from '../../assets/product-imgs/expand_right.png';
 import check from '../../assets/product-imgs/check.png';
@@ -192,7 +194,44 @@ export default function Product() {
             cat2: "Kitchen Appliances",
             cat3: "Kettles",
             inStock: true
+        },
+
+        {
+            id: 10,
+            name: "Smart Watch with multiple features for fitness tracking",
+            price1: "$199.00",
+            price2: "$179.99",
+            price3: "$159.99",
+            rating: "4.7",
+            reviews: "321",
+            sold: "1.2k",
+            type: "Electronics",
+            material: "Plastic and Metal",
+            mainImage: smartwatch,
+            cat1: "Electronics",
+            cat2: "Wearable Technology",
+            cat3: "Smart Watches",
+            inStock: true
+        },
+
+        {
+            id: 11,
+            name: "Traditional Wooden Tockri Bag for daily use",
+            price1: "$25.00",
+            price2: "$22.99",
+            price3: "$19.99",
+            rating: "4.5",
+            reviews: "101",
+            sold: "531",
+            type: "Accessories",
+            material: "Wood",
+            mainImage: tockri,
+            cat1: "Accessories",
+            cat2: "Women",
+            cat3: "Bags",
+            inStock: true
         }
+
     ];
 
     const Product = Products.find((product) => product.id === parseInt(id));
