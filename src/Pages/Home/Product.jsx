@@ -237,6 +237,29 @@ export default function Product() {
 
     const Product = Products.find((product) => product.id === parseInt(id));
 
+    if (!Product) {
+        return (
+            <>
+                <Header />
+                <Navbar />
+
+                <div className={styles.notFoundWrapper}>
+                    <div className={styles.notFoundContent} role="main" aria-labelledby="notfound-title">
+                        <h2 id="notfound-title" className={styles.notFoundTitle}>Product not found</h2>
+                        <p className={styles.notFoundText}>We couldn't find the product you were looking for. It may have been removed or the link is broken.</p>
+
+                        <div className={styles.notFoundActions}>
+                            <Link to="/" className={styles.notFoundBtn}>Return to Home</Link>
+                            <Link to="/" className={styles.notFoundLink}>Browse products</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <Footer />
+            </>
+        )
+    }
+
     return (
 
 
