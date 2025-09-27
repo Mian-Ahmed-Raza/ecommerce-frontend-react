@@ -35,10 +35,10 @@ function Header() {
 
                 <div className="navs">
 
-                    <a href="#">
+                    <Link to="/login">
                         <img src={accountIcon} alt="Account" />
                         <span>Profile</span>
-                    </a>
+                    </Link>
 
                     <a href="#">
                         <img src={chatIcon} alt="Chat" />

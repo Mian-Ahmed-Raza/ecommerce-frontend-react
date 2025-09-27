@@ -31,7 +31,7 @@ function Navbar() {
 
                     <a href="#">Menu items</a>
 
-                    <a href="#" className='help-dropdown'>
+                    <a className='help-dropdown'>
                         <span>Help</span>
                         <img src={arrow} alt="Arrow" />
                         <div className="dropdown">

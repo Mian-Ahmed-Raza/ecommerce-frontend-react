@@ -50,6 +50,7 @@ nav{
 
 .help-dropdown{
     position: relative;
+    cursor: pointer;
 }
 
 .dropdown{

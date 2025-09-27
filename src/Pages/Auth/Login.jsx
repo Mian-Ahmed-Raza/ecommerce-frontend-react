@@ -47,8 +47,8 @@ export default function Login(){
                 <form className={styles.authForm} onSubmit={handleSubmit} aria-label="login form">
                     <h2>Sign in</h2>
                     <div className={styles.socialRow}>
-                        <button type="button" className={styles.socialBtn}><img src="/src/assets/home-img/google play.png" alt="Google"/> Google</button>
-                        <button type="button" className={styles.socialBtn}><img src="/src/assets/home-img/facebook3.png" alt="Facebook"/> Facebook</button>
+                        <button type="button" className={styles.socialBtn}>Google</button>
+                        <button type="button" className={styles.socialBtn}>Facebook</button>
                     </div>
 
                     <div className={styles.dividerRow}>Or continue with</div>

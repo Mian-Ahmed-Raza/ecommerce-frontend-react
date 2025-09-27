@@ -87,9 +87,9 @@ export default function Footer() {
 
                     <span>For users</span>
 
-                    <a href="#">Login</a>
+                    <Link to="/login">Login</Link>
 
-                    <a href="#">Register</a>
+                    <Link to="/register">Register</Link>
 
                     <a href="#">Settings</a>
 
