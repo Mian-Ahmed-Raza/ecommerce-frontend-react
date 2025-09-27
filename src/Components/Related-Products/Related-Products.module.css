@@ -1,0 +1,23 @@
+@import url(../../index.css);
+
+.relatedProducts{
+    width: 80vw;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.relatedProducts h2{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.relatedProducts .items{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    padding: 20px;
+    overflow-x: auto;
+}

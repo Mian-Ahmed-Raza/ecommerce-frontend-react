@@ -1,0 +1,31 @@
+@import url('../../index.css');
+
+.item{
+    width: 172px;
+    height: 254px;
+}
+
+.item .image{
+    width: 172px;
+    height: 172px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.item .name{
+    font-weight: 400;
+    font-size: 16px;
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.item .price{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8B96A5;
+}
