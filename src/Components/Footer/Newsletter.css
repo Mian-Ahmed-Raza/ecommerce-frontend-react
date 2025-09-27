@@ -49,7 +49,7 @@
 /* Media Queries for Newsletter */
 @media (max-width: 768px) {
     .newsletter {
-        height: 160px;
+        height: 200px;
         padding: 20px;
     }
     
@@ -79,7 +79,7 @@
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .newsletter {
         height: 140px;
         padding: 15px;
@@ -104,4 +104,4 @@
         height: 36px;
         font-size: 14px;
     }
-}
+} */

@@ -59,9 +59,10 @@
 
 @media (max-width: 768px) {
     .items-group {
-        width: 95vw;
+        width: 100vw;
         flex-direction: column;
         height: auto;
+        border: none;
     }
     
     .items-group .left-aside {
@@ -80,18 +81,20 @@
     
     .items-group .left-aside button {
         margin: 10px auto;
-        width: 100px;
+        width: 150px;
         height: 35px;
     }
     
     .items-group .items-grid {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 15px;
+        /* grid-template-columns: repeat(2, 1fr); */
+        display: flex;
+        overflow-x: auto;
+        padding: 0;
         gap: 10px;
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .items-group {
         width: 98vw;
     }
@@ -117,4 +120,4 @@
         padding: 10px;
         gap: 8px;
     }
-}
+} */

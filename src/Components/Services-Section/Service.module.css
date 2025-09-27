@@ -48,8 +48,8 @@
     .service .image .icon {
         width: 45px;
         height: 45px;
-        top: 70%;
-        left: 70%;
+        top: 80%;
+        left: 80%;
     }
     
     .service .name {
@@ -74,8 +74,8 @@
     .service .image .icon {
         width: 40px;
         height: 40px;
-        top: 65%;
-        left: 65%;
+        /* top: 65%;
+        left: 65%; */
     }
     
     .service .name {
