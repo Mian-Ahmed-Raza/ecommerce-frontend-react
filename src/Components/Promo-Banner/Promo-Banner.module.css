@@ -64,12 +64,12 @@
 
 @media (max-width: 768px) {
     .banner {
-        width: 95vw;
-        height: 100px;
+        width: 100vw;
+        height: 120px;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 15px;
+        border-radius: 0;
     }
     
     .banner .discount {
@@ -96,7 +96,7 @@
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .banner {
         width: 98vw;
         height: 90px;
@@ -116,4 +116,4 @@
         height: 36px;
         font-size: 14px;
     }
-}
+} */
