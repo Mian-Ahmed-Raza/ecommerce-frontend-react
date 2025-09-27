@@ -146,3 +146,124 @@ section{
     width: 200px;
     border-radius: 5px;
 }
+
+/* Media Queries for Main Section */
+@media (max-width: 1024px) {
+    .main-section {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        width: 95vw;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .main-section .cat {
+        margin: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .main-section .cat a {
+        width: 200px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    
+    .main-section .banner {
+        width: 100%;
+        height: 200px;
+        margin: 15px 0;
+    }
+    
+    .banner-text h2 {
+        font-size: 22px;
+    }
+    
+    .banner-text h1 {
+        font-size: 26px;
+    }
+    
+    .banner-text button {
+        width: 100px;
+        height: 35px;
+    }
+    
+    .user-section {
+        margin: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .user-section .user,
+    .user-section .promo,
+    .user-section .quote {
+        width: 180px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-section {
+        width: 98vw;
+    }
+    
+    .main-section .cat {
+        margin: 10px;
+    }
+    
+    .main-section .cat a {
+        width: 150px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+    }
+    
+    .main-section .banner {
+        height: 150px;
+        margin: 10px 0;
+    }
+    
+    .banner .banner-text {
+        top: 15%;
+        left: 3%;
+    }
+    
+    .banner-text h2 {
+        font-size: 18px;
+    }
+    
+    .banner-text h1 {
+        font-size: 22px;
+    }
+    
+    .banner-text button {
+        width: 90px;
+        height: 32px;
+        font-size: 12px;
+    }
+    
+    .user-section {
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .user-section .user,
+    .user-section .promo,
+    .user-section .quote {
+        width: 160px;
+    }
+    
+    .user-section .user button {
+        width: 140px;
+        height: 28px;
+        font-size: 12px;
+    }
+}

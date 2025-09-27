@@ -91,3 +91,141 @@ header {
     font-size: 12px;
     color: var(--grey-text);
 }
+
+/* Media Queries for Header */
+@media (max-width: 1024px) {
+    .head-container {
+        width: 90vw;
+    }
+    
+    .search-container {
+        width: 500px;
+    }
+    
+    .search-container input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .head-container {
+        width: 95vw;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .brandLogo {
+        height: 36px;
+        width: 120px;
+    }
+    
+    .search-container {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .search-container input {
+        width: 60%;
+    }
+    
+    .search-container a {
+        width: 25%;
+        font-size: 14px;
+    }
+    
+    .search-container button {
+        width: 15%;
+        font-size: 12px;
+    }
+    
+    .navs {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head-container {
+        width: 98vw;
+    }
+    
+    .search-container {
+        height: 36px;
+    }
+    
+    .search-container input {
+        height: 34px;
+        font-size: 14px;
+    }
+    
+    .search-container a {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    
+    .search-container button {
+        font-size: 11px;
+    }
+    
+    .navs {
+        gap: 10px;
+    }
+    
+    .navs a img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .navs a span {
+        font-size: 10px;
+    }
+}
+
+/* Enhanced Mobile Navigation */
+@media (max-width: 375px) {
+    .head-container {
+        width: 100%;
+        padding: 0 5px;
+    }
+    
+    .brandLogo {
+        height: 32px;
+        width: 100px;
+    }
+    
+    .search-container {
+        height: 32px;
+        max-width: 300px;
+    }
+    
+    .search-container input {
+        height: 30px;
+        font-size: 12px;
+    }
+    
+    .search-container a {
+        font-size: 10px;
+        padding: 0 3px;
+    }
+    
+    .search-container button {
+        font-size: 10px;
+    }
+    
+    .navs {
+        gap: 8px;
+    }
+    
+    .navs a img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .navs a span {
+        font-size: 9px;
+    }
+}

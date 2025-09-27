@@ -21,3 +21,43 @@
     padding: 20px;
     overflow-x: auto;
 }
+
+/* Mobile-First Media Queries for Related Products */
+@media (max-width: 1024px) {
+    .relatedProducts {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .relatedProducts {
+        width: 95vw;
+    }
+    
+    .relatedProducts h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .relatedProducts .items {
+        padding: 15px;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .relatedProducts {
+        width: 98vw;
+    }
+    
+    .relatedProducts h2 {
+        font-size: 16px;
+        margin: 15px;
+    }
+    
+    .relatedProducts .items {
+        padding: 10px;
+        gap: 8px;
+    }
+}

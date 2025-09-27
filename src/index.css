@@ -29,3 +29,66 @@ body{
 button{
     cursor: pointer;
 }
+
+/* Global Responsive Utilities */
+@media (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    
+    section {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+    
+    section {
+        margin-bottom: 10px;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    
+    button {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    
+    input, textarea {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+}
+
+/* Extra small devices (phones < 375px) */
+@media (max-width: 374px) {
+    html {
+        font-size: 12px;
+    }
+    
+    section {
+        margin-bottom: 8px;
+    }
+    
+    button {
+        min-height: 40px;
+        font-size: 13px;
+    }
+}

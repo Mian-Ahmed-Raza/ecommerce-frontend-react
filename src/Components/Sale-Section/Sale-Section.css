@@ -41,3 +41,69 @@ section{
     display: flex;
     width: 100%;
 }
+
+/* Media Queries for Sale Section */
+@media (max-width: 1024px) {
+    .sale-section {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .sale-section {
+        width: 95vw;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .sale-section .time {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sale-section .time div {
+        position: static;
+        text-align: center;
+    }
+    
+    .sale-section .time div h2 {
+        font-size: 18px;
+    }
+    
+    .sale-section .time div p {
+        margin-bottom: 10px;
+    }
+    
+    .sale-section .items {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sale-section {
+        width: 98vw;
+    }
+    
+    .sale-section .time {
+        height: 80px;
+    }
+    
+    .sale-section .time div h2 {
+        font-size: 16px;
+    }
+    
+    .sale-section .time div p {
+        font-size: 12px;
+    }
+    
+    .sale-section .items {
+        padding: 10px;
+        gap: 8px;
+    }
+}

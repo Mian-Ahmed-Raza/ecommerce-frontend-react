@@ -16,3 +16,57 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 30px;
 }
+
+/* Mobile-First Media Queries for Recommend Section */
+@media (max-width: 1024px) {
+    .recommendSection {
+        width: 90vw;
+    }
+    
+    .recommendSection .itemsContainer {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .recommendSection {
+        width: 95vw;
+    }
+    
+    .recommendSection .heading {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .recommendSection .itemsContainer {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recommendSection {
+        width: 98vw;
+        padding: 0 10px;
+    }
+    
+    .recommendSection .heading {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    
+    .recommendSection .itemsContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .recommendSection .itemsContainer {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        justify-items: center;
+    }
+}

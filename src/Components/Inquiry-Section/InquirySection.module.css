@@ -112,3 +112,121 @@
     border: none;
     border-radius: 5px;
 }
+
+/* Mobile-First Media Queries for Inquiry Section */
+@media (max-width: 1024px) {
+    .inquirySection {
+        width: 90vw;
+        height: auto;
+        min-height: 380px;
+    }
+    
+    .formDiv {
+        width: 420px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .inquirySection {
+        width: 95vw;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .inquirySection .text {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .text .h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .text .p {
+        font-size: 14px;
+    }
+    
+    .formDiv {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    
+    .formDiv .form div {
+        margin: 15px;
+    }
+    
+    .formDiv .form div .quantity {
+        width: 48%;
+        margin-right: 4%;
+    }
+    
+    .formDiv .form div .pcs {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .inquirySection {
+        width: 98vw;
+        padding: 15px 0;
+    }
+    
+    .inquirySection .text {
+        margin: 15px;
+    }
+    
+    .text .h2 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    .text .p {
+        font-size: 13px;
+    }
+    
+    .formDiv {
+        width: 95%;
+        margin: 15px auto;
+    }
+    
+    .formDiv .form div {
+        margin: 12px;
+    }
+    
+    .formDiv .form div p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .formDiv .form div .itemName,
+    .formDiv .form div .quantity,
+    .formDiv .form div .pcs {
+        height: 36px;
+        font-size: 14px;
+    }
+    
+    .formDiv .form div .quantity {
+        width: 60%;
+        margin-right: 3%;
+    }
+    
+    .formDiv .form div .pcs {
+        width: 37%;
+    }
+    
+    .formDiv .form div .details {
+        height: 60px;
+        font-size: 14px;
+    }
+    
+    .formDiv .form div button {
+        width: 100%;
+        height: 44px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}

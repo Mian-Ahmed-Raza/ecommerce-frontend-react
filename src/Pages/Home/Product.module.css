@@ -425,3 +425,138 @@ hr {
         padding: 20px;
     }
 }
+
+/* Additional Media Queries for Product Page */
+@media (max-width: 1024px) {
+    .subCats {
+        width: 90vw;
+    }
+    
+    .productSection {
+        width: 90vw;
+    }
+    
+    .detailSection {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .subCats {
+        width: 95vw;
+        height: auto;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+    
+    .productSection {
+        width: 95vw;
+        flex-direction: column;
+    }
+    
+    .productSection .productImages {
+        width: 100%;
+        margin: 15px;
+    }
+    
+    .productSection .productImages .mainImage {
+        height: 280px;
+    }
+    
+    .productDetails {
+        width: 100%;
+        margin: 15px;
+    }
+    
+    .productSection .seller {
+        width: 100%;
+        height: auto;
+        margin: 15px;
+    }
+    
+    .detailSection {
+        width: 95vw;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .description {
+        width: 100%;
+    }
+    
+    .mayLike {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .subCats {
+        width: 98vw;
+        font-size: 14px;
+    }
+    
+    .subCats img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .productSection {
+        width: 98vw;
+    }
+    
+    .productSection .productImages {
+        margin: 10px;
+    }
+    
+    .productSection .productImages .mainImage {
+        height: 220px;
+    }
+    
+    .productSection .productImages .otherImages .images {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .productDetails {
+        margin: 10px;
+    }
+    
+    .productDetails .productName {
+        font-size: 18px;
+    }
+    
+    .productDetails .pricing {
+        height: auto;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .productDetails .pricing .price {
+        margin: 10px;
+        border: none !important;
+        padding-left: 0 !important;
+    }
+    
+    .productSection .seller {
+        margin: 10px;
+    }
+    
+    .productSection .seller button {
+        width: 90%;
+        font-size: 14px;
+    }
+    
+    .detailSection {
+        width: 98vw;
+    }
+    
+    .description .content .table td {
+        width: auto;
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    .mayLike .products .product .content {
+        margin: 5px;
+    }
+}

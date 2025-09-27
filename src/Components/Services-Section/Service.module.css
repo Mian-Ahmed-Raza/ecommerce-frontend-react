@@ -32,3 +32,55 @@
     margin: 20px;
     width: 70%;
 }
+
+/* Mobile-First Media Queries for Service */
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
+        max-width: 300px;
+        height: 180px;
+    }
+    
+    .service .image {
+        height: 100px;
+    }
+    
+    .service .image .icon {
+        width: 45px;
+        height: 45px;
+        top: 70%;
+        left: 70%;
+    }
+    
+    .service .name {
+        margin: 15px;
+        font-size: 14px;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .service {
+        width: 100%;
+        max-width: 280px;
+        height: 160px;
+    }
+    
+    .service .image {
+        height: 90px;
+    }
+    
+    .service .image .icon {
+        width: 40px;
+        height: 40px;
+        top: 65%;
+        left: 65%;
+    }
+    
+    .service .name {
+        margin: 12px;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+}

@@ -45,3 +45,63 @@
     border-radius: 5px;
     color: var(--white);
 }
+
+/* Media Queries for Newsletter */
+@media (max-width: 768px) {
+    .newsletter {
+        height: 160px;
+        padding: 20px;
+    }
+    
+    .newsletter h2 {
+        font-size: 18px;
+    }
+    
+    .newsletter p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .newsletter form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .newsletter form input {
+        width: 250px;
+        margin-right: 0;
+    }
+    
+    .newsletter form button {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .newsletter {
+        height: 140px;
+        padding: 15px;
+    }
+    
+    .newsletter h2 {
+        font-size: 16px;
+    }
+    
+    .newsletter p {
+        font-size: 12px;
+    }
+    
+    .newsletter form input {
+        width: 200px;
+        height: 36px;
+        font-size: 14px;
+    }
+    
+    .newsletter form button {
+        width: 90px;
+        height: 36px;
+        font-size: 14px;
+    }
+}

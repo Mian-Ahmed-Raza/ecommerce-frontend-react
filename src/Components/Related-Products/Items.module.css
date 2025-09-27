@@ -29,3 +29,49 @@
     font-size: 16px;
     color: #8B96A5;
 }
+
+/* Mobile-First Media Queries for Related Product Items */
+@media (max-width: 768px) {
+    .item {
+        width: 150px;
+        height: 220px;
+        flex-shrink: 0;
+    }
+    
+    .item .image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .item .name {
+        font-size: 14px;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+    
+    .item .price {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        width: 130px;
+        height: 200px;
+    }
+    
+    .item .image {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .item .name {
+        font-size: 12px;
+        margin-bottom: 6px;
+        line-height: 1.1;
+    }
+    
+    .item .price {
+        font-size: 12px;
+    }
+}
