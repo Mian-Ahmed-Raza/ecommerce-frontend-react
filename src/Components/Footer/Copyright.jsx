@@ -6,7 +6,7 @@ export default function Copyright(){
     return(
         <div className='copyright'>
             <div>
-                <p>&copy; {new Date().getFullYear()} E-commerce. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Mian-Ahmed. All rights reserved.</p>
             </div>
         </div>
     )
