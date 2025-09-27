@@ -100,6 +100,7 @@ nav{
     
     .nav-right {
         gap: 15px;
+        display: none;
     }
 }
 
@@ -107,6 +108,7 @@ nav{
     nav {
         height: auto;
         padding: 8px 0;
+        border: none;
     }
     
     .navbar {
@@ -116,13 +118,25 @@ nav{
     }
     
     .nav-items {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: center;
+        flex-direction: row;
         gap: 10px;
+        height: 30px;
+        /* overflow-x: scroll; */
+    }
+
+    .nav-items a:first-of-type img{
+        display: none;
     }
     
     .nav-items a {
         font-size: 14px;
+        padding: 5px;
+    }
+
+    .nav-items .help-dropdown{
+        display: none;
     }
     
     .nav-right {
