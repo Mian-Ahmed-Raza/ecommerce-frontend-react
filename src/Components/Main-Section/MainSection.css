@@ -21,22 +21,32 @@ section{
     margin: 20px;
 }
 
-.main-section .cat a {
+.main-section .cat button {
     display: block;
     width: 250px;
     height: 40px;
     line-height: 40px;
+    text-align: left;
     text-indent: 10px;
     border-radius: 5px;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.main-section .cat a:hover{
+.main-section .cat button:hover{
     background-color: var(--item-hover);
 }
 
-.main-section .cat a:focus{
+.main-section .cat button:focus{
     background-color: var(--item-hover);
     font-weight: 600;
+    outline: 2px solid #0067FF;
+    outline-offset: -2px;
 }
 
 .main-section .banner {

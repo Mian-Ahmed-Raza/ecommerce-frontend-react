@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import './Item.css';
 
 export default function Items(props) {
@@ -20,3 +21,12 @@ export default function Items(props) {
     )
 
 }
+
+Items.propTypes = {
+    imageUrl: PropTypes.string.isRequired,
+    itemName: PropTypes.string.isRequired,
+    price: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]).isRequired
+};

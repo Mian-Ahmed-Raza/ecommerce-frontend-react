@@ -22,7 +22,7 @@ export default function SaleSection() {
 
                     <div>
                         <h2>Deals and offers</h2>
-                        <p>Heygiene equipments</p>
+                        <p>Hygiene equipment</p>
                         <img src={timeImg} alt="time" />
                     </div>
 

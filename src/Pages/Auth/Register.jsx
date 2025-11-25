@@ -41,8 +41,9 @@ export default function Register(){
             return
         }
 
-        // Simulate register
-        console.log('register', { name, email })
+        // Registration logic would go here
+        // Example: await authService.register(name, email, password)
+        
         navigate('/')
     }
 

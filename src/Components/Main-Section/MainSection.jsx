@@ -1,4 +1,5 @@
 import './MainSection.css';
+import { Link } from 'react-router-dom';
 
 import bannerImg from '../../assets/home-img/banner.png'
 import avatar from '../../assets/home-img/Avatar.png'
@@ -15,23 +16,23 @@ export default function MainSection(){
 
                 <div className="cat">
 
-                    <a href="#">Automobiles</a>
+                    <button type="button">Automobiles</button>
 
-                    <a href="#">Clothes and wear</a>
+                    <button type="button">Clothes and wear</button>
 
-                    <a href="#">Home interiors</a>
+                    <button type="button">Home interiors</button>
                     
-                    <a href="#">Computer and tech</a>
+                    <button type="button">Computer and tech</button>
 
-                    <a href="#">Tools, equipments</a>
+                    <button type="button">Tools, equipments</button>
 
-                    <a href="#">Sports and outdoors</a>
+                    <button type="button">Sports and outdoors</button>
 
-                    <a href="#">Animal and pets</a>
+                    <button type="button">Animal and pets</button>
 
-                    <a href="#">Machinery tools</a>
+                    <button type="button">Machinery tools</button>
 
-                    <a href="#">More Categories</a>
+                    <button type="button">More Categories</button>
 
                 </div>
 
@@ -56,8 +57,8 @@ export default function MainSection(){
                             <p>Hi, user <br />let's get started</p>
                         </div>
 
-                        <button type="button">Join now</button>
-                        <button type="button">Log in</button>
+                        <Link to="/register"><button type="button">Join now</button></Link>
+                        <Link to="/login"><button type="button">Log in</button></Link>
 
                     </div>
 

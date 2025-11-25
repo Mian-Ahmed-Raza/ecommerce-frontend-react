@@ -29,7 +29,9 @@ export default function Login(){
             return
         }
 
-    console.log('login', { email, password })
+        // Authentication logic would go here
+        // Example: await authService.login(email, password)
+        
         navigate('/')
     }
 

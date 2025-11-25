@@ -1,6 +1,7 @@
-import styles from './Items.module.css';
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import styles from './Items.module.css';
 
 export default function Items(props){
 
@@ -22,3 +23,12 @@ export default function Items(props){
     )
 
 }
+
+Items.propTypes = {
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    price: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]).isRequired
+};

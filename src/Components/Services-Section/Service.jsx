@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styles from "./Service.module.css";
 
 export default function Service(props){
@@ -28,3 +29,10 @@ export default function Service(props){
 
 
 }
+
+Service.propTypes = {
+    image: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
+};

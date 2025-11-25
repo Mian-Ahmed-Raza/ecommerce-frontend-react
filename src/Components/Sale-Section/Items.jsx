@@ -1,5 +1,6 @@
-import './Items.css'
 import React from 'react';
+import PropTypes from 'prop-types';
+import './Items.css'
 
 
 export default function Items(props){
@@ -24,3 +25,9 @@ export default function Items(props){
     )
 
 }
+
+Items.propTypes = {
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    discount: PropTypes.string.isRequired
+};
